@@ -1,18 +1,22 @@
-import java.util.*;
-public class SecondHighest {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        int x = sc.nextInt();
-        int arr[] = new int[x];
-        
-        for(int i = 0; i<x; i++)
-        {
-            arr[i] = sc.nextInt();
-        }
-        
-        Arrays.sort(arr);
-        
-        System.out.println(Arrays.toString(arr));
-        System.out.println(arr[1]);
-    }
-}
+import java.utils
+public class SecondLargestInArrayExample{  
+public static int getSecondLargest(int[] a, int total){  
+int temp;  
+for (int i = 0; i < total; i++)   
+        {  
+            for (int j = i + 1; j < total; j++)   
+            {  
+                if (a[i] > a[j])   
+                {  
+                    temp = a[i];  
+                    a[i] = a[j];  
+                    a[j] = temp;  
+                }  
+            }  
+        }  
+       return a[total-2];  
+}  
+public static void main(String args[]){    
+int a[]={44,66,99,77,33,22,55};  
+System.out.println("Second Largest: "+getSecondLargest(a,6));   
+}}  
