@@ -5,6 +5,6 @@ public class RupeeTODollar {
         System.out.print("Enter Rupees : ");
         float Rupees = sc.nextFloat();
         
-        System.out.println("Dollar = $" + Rupees/82.84);
+        System.out.println("Dollar = $" + Rupees/82.74);
     }
 }
