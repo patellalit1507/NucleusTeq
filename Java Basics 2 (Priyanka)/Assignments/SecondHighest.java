@@ -1,4 +1,4 @@
-import java.utils
+import java.utils.*;
 public class SecondLargestInArrayExample{  
 public static int getSecondLargest(int[] a, int total){  
 int temp;  
