@@ -14,6 +14,6 @@ public class Validate
 	
 	public boolean validate(int num)
 	{
-	    return Pattern.matches("[0-9]{6}",Integer.toString(num));
+	    return Pattern.matches("^[1-9]{1}[0-9]{2}\\s{0, 1}[0-9]{3}$",Integer.toString(num));
 	}
 }
