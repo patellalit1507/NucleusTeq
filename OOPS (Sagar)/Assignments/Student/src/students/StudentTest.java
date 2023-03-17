@@ -8,14 +8,14 @@ public class StudentTest {
         Student student5 = new Student();
         
         student1.setRollNumber(1);
-        student1.setName("Madhur");
+        student1.setName("Lalit");
         student1.setCourse("JAVA");
         student1.setMarks1(80);
         student1.setMarks2(70);
         student1.setMarks3(90);
         
         student2.setRollNumber(2);
-        student2.setName("Lokesh");
+        student2.setName("Navdeep");
         student2.setCourse("Back End");
         student2.setMarks1(60);
         student2.setMarks2(70);
@@ -23,7 +23,7 @@ public class StudentTest {
         
         student3 = new Student();
         student3.setRollNumber(3);
-        student3.setName("Astha");
+        student3.setName("Ashish");
         student3.setCourse("Python");
         student3.setMarks1(30);
         student3.setMarks2(20);
